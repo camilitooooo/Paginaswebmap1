@@ -1,0 +1,27 @@
+<html>
+  <header>
+    
+  </header>
+  <body>
+    <table>
+      <tr>
+        <th>ANIMALES</th>
+        <th>DESCRIPCIÓN</th>
+        <th>IMAGEN</th>
+      </tr>
+      <tr>
+        <td>
+          FLAMINGO
+        </td>
+        <td>
+          Los flamencos son aves acuáticas esbeltas y zancudas, reconocibles por sus largas patas, cuellos sinuosos y plumaje rosado, 
+          que va del rosa pálido al carmesí intenso según su dieta. Miden entre 80 y 150 cm de altura, tienen un 
+          pico curvado único para filtrar alimentos y son muy sociables, viviendo en grandes colonias.
+        </td>
+        <td>
+          <img src="https://salroche.com/blogs/estilo-de-vida/descubre-todo-sobre-el-flamenco-rosa-del-caribe?srsltid=AfmBOopxIs2Q5M_yjwfbIpjaKxsDfcqp9-DdQpVLcANodxJcUIxePtbA"
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
