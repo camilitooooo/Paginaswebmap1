@@ -1,27 +1,32 @@
-  <meta charset="UTF-8">
-    <title>Examen 
-    Práctico: Catálogo de Hardware 2026</title>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Examen Práctico: Catálogo de Hardware 2026</title>
     <style>
         body {
-            
-            background-
-            font-color: $$$;
+            background-color: #f4f4f4;
+            color: #333;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 20px;
         }
             
         .titulo-principal {
-            text-align: ____;
+            text-align: center;
             color: #2980b9;
         }
 
         .tabla-productos {
             width: 100%;
-            border 
             border-collapse: collapse;
         }
 
-       .img-producto {
+        .tabla-productos th, .tabla-productos td {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        .img-producto {
             border: 2px dashed #2980b9;
             border-radius: 8px;
         }
@@ -37,7 +42,7 @@
 
     <h1 class="titulo-principal">Inventario de Componentes Avanzados</h1>
 
-    <h2>Sección: Procesadores y Memoria</h3>
+    <h2>Sección: Procesadores y Memoria</h2>
 
     <table class="tabla-productos">
         <thead>
@@ -48,22 +53,22 @@
                 <th>Precio</th>
             </tr>
         </thead>
-       
+        <tbody>
             <tr>
                 <td align="center">
-                    <img source="cpu_quantum.jpg" class="img-producto" width="100">
+                    <img src="https://www.computing.es/noticias/ibm-da-un-salto-en-la-era-cuantica/"img-producto" width="100">
                 </td>
                 <td>
                     <h3>Procesador Quantum X1</h3>
                     <p>Arquitectura de 128 núcleos con refrigeración líquida integrada.</p>
                 </td>
                 <td>Hardware</td>
-                <td>$2,450.00</th>
+                <td>$2,450.00</td>
             </tr>
 
             <tr>
                 <td align="center">
-                    <img src="ram_ddr6.jpg" class="img-producto" width"100">
+                    <img src="https://www.godaddy.com/resources/latam/tecnologia/que-es-la-memoria-ram" class="img-producto" width="100">
                 </td>
                 <td>
                     <h3>Memoria RAM DDR6 64GB</h3>
@@ -71,12 +76,20 @@
                 </td>
                 <td>Memorias</td>
                 <td>$320.00</td>
-                
+            </tr>
+
             <tr>
-                <td align="center"><img src="ssd_holographic.jpg" class="img-producto" width="100"></td>
-                <td><h3>SSD Holográfico 10TB</h3></td>
+                <td align="center">
+                    <img src="https://www.amazon.es/port%C3%A1til-externo-Reliable-Desktop-Windows/dp/B0BS6VC2B2" class="img-producto" width="100">
+                </td>
+                <td>
+                    <h3>SSD Holográfico 10TB</h3>
+                </td>
                 <td>Almacenamiento</td>
                 <td>$850.00</td>
             </tr>
-     
+        </tbody>
+    </table>
+
 </body>
+</html>
