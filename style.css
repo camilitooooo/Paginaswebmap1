@@ -1,0 +1,134 @@
+/* Configuración General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Contenedor Principal estilo Hoja A4 */
+.cv-container {
+    width: 800px;
+    background-color: white;
+    display: flex;
+    min-height: 1000px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+/* Barra Lateral (Gris) */
+.sidebar {
+    width: 35%;
+    background-color: #d9d9d9; /* Gris de la imagen */
+    padding: 40px 30px;
+}
+
+.photo-container {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.profile-photo {
+    width: 100%;
+    display: block;
+    /* Para que se vea igual a la foto pegada de la referencia */
+}
+
+.sidebar-section h3 {
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.sidebar-section p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 0.85rem;
+}
+
+.icon {
+    width: 18px;
+    margin-right: 15px;
+    opacity: 0.8;
+}
+
+/* Contenido Principal (Blanco) */
+.main-content {
+    width: 65%;
+    padding: 60px 50px;
+    position: relative;
+}
+
+.close-button {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.header h1 {
+    font-size: 2.8rem;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+
+.header .subtitle {
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    margin-top: 5px;
+    margin-bottom: 60px;
+}
+
+.main-section {
+    margin-bottom: 45px;
+}
+
+.main-section h2 {
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    border-bottom: none; /* Manteniendo el minimalismo de la imagen */
+}
+
+.edu-item {
+    margin-bottom: 25px;
+}
+
+.institution {
+    font-weight: 700;
+    font-size: 0.95rem;
+    letter-spacing: 1px;
+}
+
+.date {
+    font-style: italic;
+    font-size: 0.85rem;
+    color: #555;
+    margin: 3px 0;
+}
+
+.degree {
+    font-size: 0.9rem;
+    color: #444;
+}
+
+.main-section p {
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+}
